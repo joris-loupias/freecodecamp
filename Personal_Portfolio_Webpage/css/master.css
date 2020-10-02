@@ -1,0 +1,19 @@
+#navbar ul li{
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+#navbar ul li a{
+  color: #fff;
+  background-color: #11141D;
+  padding: 10px;
+  text-decoration: none;
+}
+#navbar{
+  background-color: #137E2C;
+  padding: 10px;
+}
+#navbar ul li a:hover{
+  background-color: #39235A;
+  transition: 0.5s;
+}
