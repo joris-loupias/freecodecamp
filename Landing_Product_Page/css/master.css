@@ -10,7 +10,7 @@ header {
   background-color: #2E2424;
   color: #fff;
   font-family: 'Lato',sans-serif;
-  padding: 1em;
+  padding: 0px;
 }
 header, nav, ul, li{
   display: flex;
@@ -18,12 +18,14 @@ header, nav, ul, li{
   list-style: none;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+  font-size: 10px;
+  color: white;
 }
-}
-ul, li, a {
-text-decoration: none;
-font-size: 30px;
-color: white;
+ul, li, a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
 }
 #products{
   display: flex;
