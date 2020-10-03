@@ -1,3 +1,37 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+  background-color: #4249FF;
+  color: #121223;
+  font-family: 'Bangers', sans-serif;
+}
+.presentation h1{
+  font-size: 35px;
+  color: #30B324;
+}
+#projects h1{
+  font-size: 35px;
+  color: #fff;
+}
+.presentation p{
+  font-size: 25px;
+  color: #30B324;
+}
+#projects{
+  height: 500px;
+  text-align: center;
+}
+#welcome-section{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://wallpapercave.com/wp/mFAeIv9.jpg");
+  background-size: 100%;
+  color: #fff;
+}
 /* Style the navigation menu */
 .topnav {
  overflow: hidden;
@@ -21,7 +55,7 @@
 
 /* Style the hamburger menu */
 .topnav a.icon {
- background: black;
+ background: #AF13E0;
  display: block;
  position: absolute;
  right: 0;
@@ -30,12 +64,23 @@
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
- background-color: #ddd;
- color: black;
+ background-color: #A058FF;
+ color: #fff;
 }
 
 /* Style the active link (or home/logo) */
 .active {
- background-color: #4CAF50;
+ background-color: #480C97;
  color: white;
-} 
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
