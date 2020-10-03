@@ -3,7 +3,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.4;
-  background-color: #D7DCDD;
+  background-color: #1E4ECF;
   width: 500px;
   margin: auto;
 }
@@ -19,8 +19,8 @@ form{
 .submit-button {
   width: 100%;
   padding: 0.75rem;
-  background: red;
-  border-radius: 2px;
+  background: #4F24AA;
+  border-radius: 5px;
   cursor: pointer;
   color: white;
 }
@@ -36,6 +36,6 @@ form{
   height: 2rem;
   padding: 0.25rem 0.75rem;
   background-color: #fff;
-  border: 1px solid #ced4da;
+  border: 1px solid #6F94F9;
   border-radius: 0.25rem;
 }
