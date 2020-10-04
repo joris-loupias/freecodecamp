@@ -33,6 +33,12 @@ body{
   background-size: 100%;
   color: #fff;
 }
+#navbar{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
 /* Style the navigation menu */
 .topnav {
  overflow: hidden;
@@ -43,14 +49,16 @@ body{
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
  display: none;
+ background-color: #480C97;
 }
 
 /* Style navigation menu links */
 .topnav a {
  color: white;
- padding: 14px 16px;
+ padding: 15px 15px;
  text-decoration: none;
- font-size: 17px;
+ background-color: #480C97 !important;
+ font-size: 30px;
  display: block;
 }
 
