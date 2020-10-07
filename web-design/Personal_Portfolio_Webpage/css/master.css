@@ -100,7 +100,6 @@ body{
 }
 /* PROJECTS */
 h3{
-  text-decoration: none;
   padding: 10px;
   margin: 10px;
   background-color: #036E00;
@@ -117,7 +116,7 @@ h3:hover{
 #contact-section a{
   text-align: center;
   display: block;
-  box-align: center;
+  align: center;
   border-radius: 8px;
   padding: 10px;
   margin: 10px;
